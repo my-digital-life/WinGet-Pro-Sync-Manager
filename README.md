@@ -24,7 +24,7 @@ Key Features
 
 
 Run:    
-'.\advanced-winget.ps'
+.\advanced-winget.ps
 
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\advanced-winget.ps1
 
