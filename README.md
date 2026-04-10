@@ -23,7 +23,7 @@ Key Features
     the interface is optimized for readability, reducing eye strain during long maintenance sessions.
 
 
-Run:
+Run:    
 .\advanced-winget.ps
 
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\advanced-winget.ps1
