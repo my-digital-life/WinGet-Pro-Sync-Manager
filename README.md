@@ -31,18 +31,13 @@ To run the script directly from a PowerShell terminal, navigate to the script di
 ### PowerShell
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\advanced-winget.ps1  
 
+---
+
 ### Create a Windows Shortcut  
 
   To launch the Manager with a double-click from your desktop, create a new Windows shortcut and paste the
   following into the Target field (ensure you update the path to match your actual folder location):
-
+---
   C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Path\To\Your\Script\advanced-winget.ps1"
 
-  Run:    
-  .\advanced-winget.ps
   
-  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\advanced-winget.ps1
-  
-  Create a Window's shortcut with this as the target # Add the foler location to .\advanced-winget.ps1    
-  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\code\winget\advanced-winget.ps1"
-
