@@ -28,5 +28,5 @@ Run:
 
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\advanced-winget.ps1
 
-Create a Window's shortcut with this as the target # Add the foler location to .\advanced-winget.ps1
+Create a Window's shortcut with this as the target # Add the foler location to .\advanced-winget.ps1    
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\code\winget\advanced-winget.ps1"
