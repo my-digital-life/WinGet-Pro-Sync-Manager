@@ -56,8 +56,8 @@ following into the Target field (ensure you update the path to match your actual
   C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Path\To\Your\Script\advanced-winget.ps1"
 ...
 ```bash
-  
-...
+
+```bash
 # Convert to exe
 ```bash
 Invoke-PS2EXE -InputFile "advanced-winget.ps1" -OutputFile "WinGetProManager.exe" -NoConsole
