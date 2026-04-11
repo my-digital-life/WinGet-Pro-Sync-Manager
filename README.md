@@ -27,8 +27,10 @@ To run the script directly from a PowerShell terminal, navigate to the script di
 
 Invoke-PS2EXE -InputFile "advanced-winget.ps1" -OutputFile "WinGetProManager.exe" -NoConsole
 
+```bash
   .\advanced-winget.ps1
-
+```
+```bash
 ### Execution Policy Bypass    
   If your system restricts script execution, use the following command to run the Manager:
 
