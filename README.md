@@ -21,23 +21,33 @@ By leveraging the Windows Forms library, this script provides a structured envir
 ### Quick Start
 To run the script directly from a PowerShell terminal, navigate to the script directory and execute:
 
-```
-  powershell    
+.\advanced-winget.ps1
+
+### Convert to exe
+
+Invoke-PS2EXE -InputFile "advanced-winget.ps1" -OutputFile "WinGetProManager.exe" -NoConsole
+
   .\advanced-winget.ps1
 
 ### Execution Policy Bypass    
   If your system restricts script execution, use the following command to run the Manager:
 
-### PowerShell
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\advanced-winget.ps1  
 
 ---
 
 ### Create a Windows Shortcut  
 
-  To launch the Manager with a double-click from your desktop, create a new Windows shortcut and paste the
-  following into the Target field (ensure you update the path to match your actual folder location):
----
+To launch the Manager with a double-click from your desktop, create a new Windows shortcut and paste the
+following into the Target field (ensure you update the path to match your actual folder location):
+
   C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Path\To\Your\Script\advanced-winget.ps1"
+  
+...
+## Convert to exe
+  Invoke-PS2EXE -InputFile "advanced-winget.ps1" -OutputFile "WinGetProManager.exe" -NoConsole
+...
+
+
 
   
